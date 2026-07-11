@@ -12,6 +12,8 @@ cask "dockyard" do
     strategy :github_latest
   end
 
+  depends_on macos: ">= :sonoma"
+
   app "Dockyard.app"
   binary "#{appdir}/Dockyard.app/Contents/Resources/dy", target: "dy"
 
