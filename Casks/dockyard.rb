@@ -1,6 +1,6 @@
 cask "dockyard" do
-  version "0.2.0"
-  sha256 "cee790d5422196d4f2f9958d004f06308ccd3660219a97944830d977dfa9e0c6"
+  version "0.2.1"
+  sha256 "e35f6967ac7030c494b850dd2160bf92a0d7972c1f022e55bffec53e85df2e01"
 
   url "https://github.com/barnolacesc/dockyard/releases/download/v#{version}/Dockyard-unsigned.dmg"
   name "Dockyard"
