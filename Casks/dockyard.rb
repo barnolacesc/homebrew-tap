@@ -1,6 +1,6 @@
 cask "dockyard" do
-  version "0.2.1"
-  sha256 "e35f6967ac7030c494b850dd2160bf92a0d7972c1f022e55bffec53e85df2e01"
+  version "0.2.7"
+  sha256 "c23e2d8e124b5fce498afb9b56e4f33eb548cff30f7d47289d9479af772f9d65"
 
   url "https://github.com/barnolacesc/dockyard/releases/download/v#{version}/Dockyard-unsigned.dmg"
   name "Dockyard"
@@ -30,7 +30,5 @@ cask "dockyard" do
       • Right-click Dockyard.app in Finder, choose "Open", then confirm.
       • Remove the quarantine attribute manually:
           xattr -cr /Applications/Dockyard.app
-      • Reinstall with Homebrew's quarantine flag disabled:
-          brew install --cask --no-quarantine barnolacesc/tap/dockyard
   EOS
 end
